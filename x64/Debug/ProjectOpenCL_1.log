@@ -1,0 +1,15 @@
+﻿Построение начато 05.10.2019 10:53:01.
+     1>Проект "C:\Users\Ksenia\Documents\Visual Studio 2012\Projects\ProjectOpenCL_1\ProjectOpenCL_1.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files (x86)\IntelSWTools\OpenCL\sdk\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(251): warning C4996: 'clCreateCommandQueue': объявлен deprecate
+                 C:\Program Files (x86)\IntelSWTools\OpenCL\sdk\include\CL/cl.h(1428): см. объявление "clCreateCommandQueue"
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ksenia\Documents\Visual Studio 2012\Projects\ProjectOpenCL_1\x64\Debug\ProjectOpenCL_1.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\IntelSWTools\OpenCL\sdk\lib\x64" OpenCL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ksenia\Documents\Visual Studio 2012\Projects\ProjectOpenCL_1\x64\Debug\ProjectOpenCL_1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ksenia\Documents\Visual Studio 2012\Projects\ProjectOpenCL_1\x64\Debug\ProjectOpenCL_1.lib" /MACHINE:X64 x64\Debug\main.obj
+         ProjectOpenCL_1.vcxproj -> C:\Users\Ksenia\Documents\Visual Studio 2012\Projects\ProjectOpenCL_1\x64\Debug\ProjectOpenCL_1.exe
+     1>Построение проекта "C:\Users\Ksenia\Documents\Visual Studio 2012\Projects\ProjectOpenCL_1\ProjectOpenCL_1.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.47
